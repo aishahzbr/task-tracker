@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { supabase } from './supabase';
 
 const STATUSES = ["To Do", "In Progress", "Done", "Blocked"];
 const PRIORITIES = ["High", "Medium", "Low"];
